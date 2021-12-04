@@ -27,3 +27,6 @@ append 1.0705 ms ** faster
 Results for the extraLargeArray
 insert 1.9587710999999999 s
 append 7.05 ms ** faster
+
+
+For smaller arrays, the insert method is faster, but for larger arrays the append method is faster. This leads me to believe that the append method scales better. 
