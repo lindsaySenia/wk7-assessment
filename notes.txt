@@ -1,0 +1,29 @@
+insert = doublerInsert
+append = doublerAppend
+
+
+Results for the extraLargeArray
+insert 1.5767209 s 
+append 6.6875 ms ** faster
+
+Seconds vs Milliseconds 
+
+Results for the tinyArray
+insert 59 μs ** faster
+append 150 μs
+
+Results for the smallArray
+insert 148.9 μs ** faster
+append 281.3 μs
+
+Results for the mediumArray
+insert 319.9 μs
+append 249 μs ** faster
+
+Results for the largeArray
+insert 15.6259 ms
+append 1.0705 ms ** faster
+
+Results for the extraLargeArray
+insert 1.9587710999999999 s
+append 7.05 ms ** faster
